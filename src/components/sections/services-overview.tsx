@@ -4,7 +4,8 @@ import Link from 'next/link';
 import { SectionHeader } from '@/components/ui/section-header';
 import { services } from '@/lib/data/services';
 import * as Icons from 'lucide-react';
-import { ArrowUpRight } from 'lucide-react';
+import { ArrowUpRight, Building } from 'lucide-react';
+import { ComponentType } from 'react';
 
 export function ServicesOverview() {
   return (
@@ -18,7 +19,7 @@ export function ServicesOverview() {
 
         <div className="mt-16 grid md:grid-cols-2 lg:grid-cols-3 gap-6">
           {services.slice(0, 6).map((service, i) => {
-            const IconComponent = Icons[service.icon as keyof typeof Icons] || Icons.Building;
+            const IconComponent = (Icons[service.icon as keyof typeof Icons] as ComponentType<{ size: number; className: string }>) || Building;
             return (
               <motion.div
                 key={service.slug}
