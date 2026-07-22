@@ -3,3 +3,5 @@
 [2026-07-22T16:51:51.553Z] 4:51:51 PM [vite] changed tsconfig file detected: /home/ubuntu/al-habeeb-website/tsconfig.json - Clearing cache and forcing full-reload to ensure TypeScript is compiled with updated config values.
 [2026-07-22T16:51:55.613Z] 4:51:55 PM [vite] changed tsconfig file detected: /home/ubuntu/al-habeeb-website/tsconfig.json - Clearing cache and forcing full-reload to ensure TypeScript is compiled with updated config values.
 [2026-07-22T16:51:59.736Z] 4:51:59 PM [vite] changed tsconfig file detected: /home/ubuntu/al-habeeb-website/tsconfig.json - Clearing cache and forcing full-reload to ensure TypeScript is compiled with updated config values.
+[2026-07-22T16:59:29.501Z] 4:59:29 PM [vite] changed tsconfig file detected: /home/ubuntu/al-habeeb-website/.git-rewrite/t/tsconfig.json - Clearing cache and forcing full-reload to ensure TypeScript is compiled with updated config values.
+[2026-07-22T16:59:29.976Z] 4:59:29 PM [vite] changed tsconfig file detected: /home/ubuntu/al-habeeb-website/.git-rewrite/t/tsconfig.json - Clearing cache and forcing full-reload to ensure TypeScript is compiled with updated config values.

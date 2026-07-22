@@ -18,13 +18,14 @@ const tajawal = Tajawal({
   display: 'swap'
 });
 
-export default function RootLayout({
+export default async function RootLayout({
   children,
-  params: { locale }
+  params
 }: {
   children: React.ReactNode;
-  params: { locale: string };
+  params: Promise<{ locale: string }>;
 }) {
+  const { locale } = await params;
   if (!['ar', 'en'].includes(locale)) notFound();
 
   return (
